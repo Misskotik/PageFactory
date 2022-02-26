@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: ru.misskotik.MainPageTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 44.411 s <<< FAILURE! - in ru.misskotik.MainPageTest
+ru.misskotik.MainPageTest.checkoutFormTest  Time elapsed: 4.692 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-sauce\-labs\-backpack"}
+  (Session info: chrome=98.0.4758.109)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'MacBook-Air-lally.local', ip: 'fe80:0:0:0:838:2fc5:4cc0:a39c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a70d301f5288faf16144ed269bf33d36, findElement {using=id, value=add-to-cart-sauce-labs-backpack}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/r3/m6r6c5ks2hl...}, goog:chromeOptions: {debuggerAddress: localhost:49614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49614/devtoo..., se:cdpVersion: 98.0.4758.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a70d301f5288faf16144ed269bf33d36
+	at ru.misskotik.MainPageTest.checkoutFormTest(MainPageTest.java:57)
+
+ru.misskotik.MainPageTest.continueShoppingTest  Time elapsed: 4.614 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-sauce\-labs\-backpack"}
+  (Session info: chrome=98.0.4758.109)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'MacBook-Air-lally.local', ip: 'fe80:0:0:0:838:2fc5:4cc0:a39c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a70d301f5288faf16144ed269bf33d36, findElement {using=id, value=add-to-cart-sauce-labs-backpack}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/r3/m6r6c5ks2hl...}, goog:chromeOptions: {debuggerAddress: localhost:49614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49614/devtoo..., se:cdpVersion: 98.0.4758.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a70d301f5288faf16144ed269bf33d36
+	at ru.misskotik.MainPageTest.continueShoppingTest(MainPageTest.java:39)
+
+ru.misskotik.MainPageTest.addToCartTest  Time elapsed: 4.152 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-sauce\-labs\-backpack"}
+  (Session info: chrome=98.0.4758.109)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'MacBook-Air-lally.local', ip: 'fe80:0:0:0:838:2fc5:4cc0:a39c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a70d301f5288faf16144ed269bf33d36, findElement {using=id, value=add-to-cart-sauce-labs-backpack}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/r3/m6r6c5ks2hl...}, goog:chromeOptions: {debuggerAddress: localhost:49614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49614/devtoo..., se:cdpVersion: 98.0.4758.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a70d301f5288faf16144ed269bf33d36
+	at ru.misskotik.MainPageTest.addToCartTest(MainPageTest.java:20)
+
+ru.misskotik.MainPageTest.removeFromCartTest  Time elapsed: 4.277 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-sauce\-labs\-backpack"}
+  (Session info: chrome=98.0.4758.109)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'MacBook-Air-lally.local', ip: 'fe80:0:0:0:838:2fc5:4cc0:a39c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a70d301f5288faf16144ed269bf33d36, findElement {using=id, value=add-to-cart-sauce-labs-backpack}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/r3/m6r6c5ks2hl...}, goog:chromeOptions: {debuggerAddress: localhost:49614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49614/devtoo..., se:cdpVersion: 98.0.4758.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a70d301f5288faf16144ed269bf33d36
+	at ru.misskotik.MainPageTest.removeFromCartTest(MainPageTest.java:29)
+
+ru.misskotik.MainPageTest.finishTest  Time elapsed: 4.31 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart\-sauce\-labs\-backpack"}
+  (Session info: chrome=98.0.4758.109)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'MacBook-Air-lally.local', ip: 'fe80:0:0:0:838:2fc5:4cc0:a39c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a70d301f5288faf16144ed269bf33d36, findElement {using=id, value=add-to-cart-sauce-labs-backpack}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.109, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/r3/m6r6c5ks2hl...}, goog:chromeOptions: {debuggerAddress: localhost:49614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49614/devtoo..., se:cdpVersion: 98.0.4758.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a70d301f5288faf16144ed269bf33d36
+	at ru.misskotik.MainPageTest.finishTest(MainPageTest.java:66)
+
